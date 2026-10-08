@@ -8,10 +8,15 @@ A 4-hour football crash course built around one skill: reading the field before 
 - **Station 8, the drill** — pause a game before each snap, log the game clock, yard line, what you see and your run/pass call (plus an optional bonus: name the exact play), then log what happened. You get accuracy by game and quarter against the "always pass" benchmark.
 - **Game reviews** — the morning after a game you logged is final, each snap is matched to the real play, graded, and corrected where you logged something wrong. Plays you haven't learned yet get an explanation and diagram, and are added to your playbook.
 
+## Football 101
+
+The Football 101 section has every lesson from the Football Brief, with its diagrams and "Check yourself" questions. Lessons live on this repo's `data` branch as `data/lessons/fb<N>.json` (`{n, title, html, quiz, stations}`), and a daily task copies each new brief lesson in. Stations link to the lessons that cover them, each lesson links back to its stations, and a "Study next" card uses your latest game review to point at the lessons that cover what you missed. Quiz answers sync with the rest of Camp's progress.
+
 ## Where your data lives
 
 - **Drill (Station 8), game reviews and playbook** → `foolserrandsf/football-film-room`, branch `data` (`data/games/`, `data/reviews/`, `data/plays/`). This is the same place the standalone Film Room app reads and writes, so a game logged in either app shows up in both, and the morning game review writes there.
-- **Camp's quiz answers, snap-reading answers and station checkmarks** → this repo, branch `data` (`data/progress.json`).
+- **Camp's quiz answers (stations and Football 101), snap-reading answers and station checkmarks** → this repo, branch `data` (`data/progress.json`).
+- **Football 101 lessons** → this repo, branch `data` (`data/lessons/`).
 
 Camp never edits football-film-room's `main` branch or its `data/progress.json` (that file belongs to the standalone app).
 
