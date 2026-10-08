@@ -1,0 +1,45 @@
+{
+ "n": 4,
+ "title": "Special teams: the third unit",
+ "html": "<p><strong>What it is:</strong> every play with a kick. The <strong>kickoff</strong> starts each half and follows every score. The <strong>punt</strong> is a 4th-down kick that gives the ball away but pushes the other team back. The <strong>field goal</strong> is worth 3 points. The <strong>extra point</strong> is a short kick worth 1 after a touchdown; teams can instead try for 2 points with one play from the 2-yard line in the NFL (the 3 in college).</p>\n<p><strong>The people:</strong> kicker, punter, long snapper (hikes the ball 7 or 15 yards back, a specialist job), holder (often the punter), returners who catch kicks, and \"gunners\" who sprint downfield to tackle them.</p>\n<p><strong>Field position, connected:</strong> where a drive starts matters a lot. From your own 20, you need 80 yards to score; from midfield, 50. A great punter keeps pinning the opponent deep, so it needs longer drives, which fail more often. That's why defensive, punt-heavy games tend to be low scoring.</p>\n<div class=\"diagram\"><svg viewBox=\"0 0 400 194\" role=\"img\" aria-label=\"Field position: a drive from your own 20 needs 80 yards, a drive from midfield needs 50\"><defs><marker id=\"m13w\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"#FFFFFF\"/></marker><marker id=\"m13y\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"#F2B705\"/></marker></defs><rect x=\"20\" y=\"20\" width=\"360\" height=\"130\" fill=\"rgba(255,255,255,.04)\"/><line x1=\"20.0\" x2=\"20.0\" y1=\"20\" y2=\"150\" stroke=\"rgba(255,255,255,.3)\"/><text x=\"20.0\" y=\"166\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">G</text><line x1=\"56.0\" x2=\"56.0\" y1=\"20\" y2=\"150\" stroke=\"rgba(255,255,255,.3)\"/><text x=\"56.0\" y=\"166\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">10</text><line x1=\"92.0\" x2=\"92.0\" y1=\"20\" y2=\"150\" stroke=\"rgba(255,255,255,.3)\"/><text x=\"92.0\" y=\"166\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">20</text><line x1=\"128.0\" x2=\"128.0\" y1=\"20\" y2=\"150\" stroke=\"rgba(255,255,255,.3)\"/><text x=\"128.0\" y=\"166\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">30</text><line x1=\"164.0\" x2=\"164.0\" y1=\"20\" y2=\"150\" stroke=\"rgba(255,255,255,.3)\"/><text x=\"164.0\" y=\"166\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">40</text><line x1=\"200.0\" x2=\"200.0\" y1=\"20\" y2=\"150\" stroke=\"rgba(255,255,255,.3)\"/><text x=\"200.0\" y=\"166\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">50</text><line x1=\"236.0\" x2=\"236.0\" y1=\"20\" y2=\"150\" stroke=\"rgba(255,255,255,.3)\"/><text x=\"236.0\" y=\"166\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">40</text><line x1=\"272.0\" x2=\"272.0\" y1=\"20\" y2=\"150\" stroke=\"rgba(255,255,255,.3)\"/><text x=\"272.0\" y=\"166\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">30</text><line x1=\"308.0\" x2=\"308.0\" y1=\"20\" y2=\"150\" stroke=\"rgba(255,255,255,.3)\"/><text x=\"308.0\" y=\"166\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">20</text><line x1=\"344.0\" x2=\"344.0\" y1=\"20\" y2=\"150\" stroke=\"rgba(255,255,255,.3)\"/><text x=\"344.0\" y=\"166\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">10</text><line x1=\"380.0\" x2=\"380.0\" y1=\"20\" y2=\"150\" stroke=\"rgba(255,255,255,.3)\"/><text x=\"380.0\" y=\"166\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">G</text><path d=\"M92.0 56 L378.0 56\" fill=\"none\" stroke=\"#F2B705\" stroke-width=\"3\" marker-end=\"url(#m13y)\"/><text x=\"92.0\" y=\"46\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" font-weight=\"700\" text-anchor=\"start\" fill=\"#F2B705\">Start at own 20: 80 yards to go</text><path d=\"M200.0 112 L378.0 112\" fill=\"none\" stroke=\"#FFFFFF\" stroke-width=\"3\" marker-end=\"url(#m13w)\"/><text x=\"200.0\" y=\"102\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" font-weight=\"700\" text-anchor=\"start\" fill=\"rgba(255,255,255,.9)\">Start at midfield: 50 yards</text><text x=\"200\" y=\"186\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">Longer field = more plays needed = more chances to stall</text></svg></div><p class=\"note\">Yard lines count up from each goal line (G) to 50 at midfield, then back down.</p>\n<p><strong>How far is a field goal?</strong> Add 17 to the yard line. The ball is snapped 7 yards back to a holder, and the goalposts sit at the <em>back</em> of the end zone, which is 10 yards deep.</p>\n<div class=\"diagram\"><svg viewBox=\"0 0 400 150\" role=\"img\" aria-label=\"Field goal distance: the ball is snapped 7 yards back and the goalposts sit 10 yards deep, so add 17 to the yard line\" font-family=\"Arial, sans-serif\"><rect x=\"10\" y=\"40\" width=\"40\" height=\"50\" fill=\"rgba(242,183,5,.35)\" stroke=\"#F2B705\"/><text x=\"30\" y=\"34\" font-size=\"9\" fill=\"rgba(255,255,255,.9)\" text-anchor=\"middle\">end zone</text><line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"100\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"50\" y=\"126\" font-size=\"9\" fill=\"rgba(255,255,255,.9)\" text-anchor=\"middle\">goal line</text><line x1=\"10\" y1=\"40\" x2=\"10\" y2=\"90\" stroke=\"#fff\" stroke-width=\"4\"/><text x=\"8\" y=\"112\" font-size=\"9\" fill=\"rgba(255,255,255,.9)\" text-anchor=\"start\">goalposts</text><line x1=\"200\" y1=\"30\" x2=\"200\" y2=\"100\" stroke=\"#5aa0ff\" stroke-width=\"3\"/><text x=\"200\" y=\"24\" font-size=\"10\" fill=\"rgba(255,255,255,.9)\" text-anchor=\"middle\" font-weight=\"700\">ball on the 20</text><g opacity=\"1\"><circle cx=\"270\" cy=\"65\" r=\"13\" fill=\"#fff\"/><text x=\"270\" y=\"68.5\" font-size=\"10\" font-weight=\"700\" fill=\"#2E6B45\" text-anchor=\"middle\">K</text></g><text x=\"270\" y=\"96\" font-size=\"9\" fill=\"rgba(255,255,255,.9)\" text-anchor=\"middle\">kick from here</text><line x1=\"255\" y1=\"60\" x2=\"14\" y2=\"60\" stroke=\"#F2B705\" stroke-width=\"2\"/><polygon points=\"14,60 20.0,56.4 20.0,63.6\" fill=\"#F2B705\"/><text x=\"200\" y=\"136\" font-size=\"11\" fill=\"rgba(255,255,255,.9)\" text-anchor=\"middle\" font-weight=\"700\">20-yard line + 7 (snap) + 10 (end zone) = 37-yard field goal</text></svg></div>\n<p class=\"legend\"><strong>K</strong> = kicker · <strong>blue line</strong> = where the ball is</p>\n<p><strong>Why it matters for betting:</strong> kicks swing margins in ways the spread doesn't plan for. On Sunday, the Vikings' 86-yard punt-return touchdown was a big reason they covered, and on Thursday Atlanta blocked a Green Bay field goal. Against a 3- to 7-point spread, one blocked kick or return touchdown can decide which side wins the bet.</p>\n<p><strong>How to spot it on TV:</strong> after each punt or kickoff, note the yard line where the offense starts. Starts inside the 20 are a win for the kicking team.</p>\n<p class=\"note\">Next: coverages, man vs. zone, and how quarterbacks read them.</p>",
+ "quiz": [
+  {
+   "q": "The ball is on the opponent's 30-yard line. How long is the field goal?",
+   "o": [
+    "40 yards",
+    "37 yards",
+    "47 yards",
+    "30 yards"
+   ],
+   "a": 2,
+   "w": "Add 17: 7 yards for the snap back to the holder, 10 for the end zone. 30 + 17 = 47."
+  },
+  {
+   "q": "Why do punt-heavy games tend to be low scoring?",
+   "o": [
+    "Punts are penalties",
+    "Punters can't score",
+    "Teams keep starting deep, so they need long drives, which fail more often",
+    "The clock stops on punts"
+   ],
+   "a": 2,
+   "w": "From your own 20 you need 80 yards; long drives fail more often than short ones."
+  },
+  {
+   "q": "In the NFL, a 2-point try is run from which yard line?",
+   "o": [
+    "The 5",
+    "The 3",
+    "The 2",
+    "The 15"
+   ],
+   "a": 2,
+   "w": "NFL: the 2. College: the 3."
+  }
+ ],
+ "stations": [
+  "s6"
+ ],
+ "added": 1791487814637,
+ "source": "Football Brief"
+}

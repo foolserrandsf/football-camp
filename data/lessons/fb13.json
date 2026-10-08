@@ -1,0 +1,45 @@
+{
+ "n": 13,
+ "title": "Penalties: which flags swing games (and bets)",
+ "html": "<p><strong>The basics:</strong> a yellow flag means a rule was broken. The penalty is measured in yards. Against the offense, the ball moves <em>back</em> toward its own goal. Against the defense, it moves <em>forward</em>, and many defensive penalties also give the offense an automatic first down (a fresh set of four downs, Lesson 3).</p>\n<div class=\"diagram\"><svg viewBox=\"0 0 400 236\" role=\"img\" aria-label=\"Penalty yardage from the own 35: false start moves the ball back 5, holding back 10, a defensive personal foul forward 15, and pass interference moves it to where the foul happened, here 22 yards\"><line x1=\"20\" x2=\"20\" y1=\"30\" y2=\"210\" stroke=\"rgba(255,255,255,0.45)\"/><text x=\"20\" y=\"226\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">20</text><line x1=\"65\" x2=\"65\" y1=\"30\" y2=\"210\" stroke=\"rgba(255,255,255,0.18)\"/><line x1=\"110\" x2=\"110\" y1=\"30\" y2=\"210\" stroke=\"rgba(255,255,255,0.45)\"/><text x=\"110\" y=\"226\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">30</text><line x1=\"155\" x2=\"155\" y1=\"30\" y2=\"210\" stroke=\"rgba(255,255,255,0.18)\"/><line x1=\"200\" x2=\"200\" y1=\"30\" y2=\"210\" stroke=\"rgba(255,255,255,0.45)\"/><text x=\"200\" y=\"226\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">40</text><line x1=\"245\" x2=\"245\" y1=\"30\" y2=\"210\" stroke=\"rgba(255,255,255,0.18)\"/><line x1=\"290\" x2=\"290\" y1=\"30\" y2=\"210\" stroke=\"rgba(255,255,255,0.45)\"/><text x=\"290\" y=\"226\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">50</text><line x1=\"335\" x2=\"335\" y1=\"30\" y2=\"210\" stroke=\"rgba(255,255,255,0.18)\"/><line x1=\"380\" x2=\"380\" y1=\"30\" y2=\"210\" stroke=\"rgba(255,255,255,0.45)\"/><text x=\"380\" y=\"226\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">40</text><line x1=\"155\" x2=\"155\" y1=\"30\" y2=\"210\" stroke=\"#5aa0ff\" stroke-width=\"3\"/><text x=\"155\" y=\"22\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\" font-weight=\"700\">ball: own 35</text><line x1=\"155\" x2=\"110\" y1=\"55\" y2=\"55\" stroke=\"#ff8a80\" stroke-width=\"3\"/><polygon points=\"110,55 116,50 116,60\" fill=\"#ff8a80\"/><text x=\"163\" y=\"46\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"start\" fill=\"#ff8a80\" font-weight=\"700\">False start (offense): back 5</text><line x1=\"155\" x2=\"65\" y1=\"95\" y2=\"95\" stroke=\"#ff8a80\" stroke-width=\"3\"/><polygon points=\"65,95 71,90 71,100\" fill=\"#ff8a80\"/><text x=\"163\" y=\"86\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"start\" fill=\"#ff8a80\" font-weight=\"700\">Holding (offense): back 10</text><line x1=\"155\" x2=\"290\" y1=\"135\" y2=\"135\" stroke=\"#F2B705\" stroke-width=\"3\"/><polygon points=\"290,135 284,130 284,140\" fill=\"#F2B705\"/><text x=\"163\" y=\"126\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"start\" fill=\"#F2B705\" font-weight=\"700\">Personal foul (defense): +15</text><line x1=\"155\" x2=\"353\" y1=\"175\" y2=\"175\" stroke=\"#F2B705\" stroke-width=\"3\"/><polygon points=\"353,175 347,170 347,180\" fill=\"#F2B705\"/><text x=\"163\" y=\"166\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"start\" fill=\"#F2B705\" font-weight=\"700\">Pass interference (defense): ball at the spot</text></svg></div><p class=\"note\">Red = penalties on the offense (ball moves back). Yellow = penalties on the defense (ball moves forward). Pass interference has no fixed number in the NFL: the ball goes to wherever the foul happened, so a deep-pass foul can be 40+ yards.</p>\n<p><strong>The common ones, in plain words:</strong></p>\n<ul>\n  <li><strong>False start (5 yards, offense):</strong> an offensive player moves before the snap. Happens most in loud road stadiums.</li>\n  <li><strong>Offside / encroachment (5 yards, defense):</strong> a defender crosses the line of scrimmage before the snap.</li>\n  <li><strong>Holding (10 yards):</strong> grabbing a player to stop him. On offense, it's a lineman grabbing a pass rusher. On defense, it's a DB grabbing a receiver, which also gives the offense an automatic first down.</li>\n  <li><strong>Pass interference:</strong> contact that stops a player from catching a catchable pass. On the defense in the NFL, the ball goes <em>to the spot of the foul</em>, which makes it the biggest penalty in football.</li>\n  <li><strong>Personal foul / roughing the passer (15 yards):</strong> a late or dangerous hit.</li>\n</ul>\n<p><strong>Connecting it:</strong> Thursday, Cleveland was missing two offensive linemen (Lesson 1). Backup linemen hold more, and a 10-yard holding call on 1st down turns it into 1st and 20, which kills a lot of drives. Last Monday, the Eagles' 10 penalties for 61 yards were part of why they never got going.</p>\n<p><strong>Why it matters for betting:</strong> a defensive pass interference or a roughing call can keep a drive alive and turn a field goal into a touchdown, which swings spreads by 4 points. Teams that commit lots of penalties are less reliable as favorites.</p>\n<p><strong>Watch for it tonight:</strong> Penn State's defense is missing several starters, so watch for holding and pass interference calls on its backups. That's often the first sign a thin secondary is struggling.</p>\n<p><strong>Video:</strong> search YouTube for \"NFL penalties explained for beginners.\"</p>",
+ "quiz": [
+  {
+   "q": "Defensive pass interference in the NFL is enforced how?",
+   "o": [
+    "15 yards",
+    "Replay the down",
+    "The ball goes to the spot of the foul",
+    "5 yards"
+   ],
+   "a": 2,
+   "w": "That's why it can be a 40+ yard penalty."
+  },
+  {
+   "q": "A false start is called on:",
+   "o": [
+    "A defender crossing the line",
+    "Holding",
+    "An offensive player moving before the snap",
+    "A late hit"
+   ],
+   "a": 2,
+   "w": "5 yards, offense. Most common in loud road stadiums."
+  },
+  {
+   "q": "Why can one defensive holding call swing a spread?",
+   "o": [
+    "It gives an automatic first down, keeping a drive alive",
+    "It ends the half",
+    "It adds points directly",
+    "It stops the clock for good"
+   ],
+   "a": 0,
+   "w": "A drive that should've ended in a punt or FG can become a touchdown: a 4-point swing."
+  }
+ ],
+ "stations": [
+  "s6"
+ ],
+ "added": 1791487823637,
+ "source": "Football Brief"
+}

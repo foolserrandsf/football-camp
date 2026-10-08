@@ -1,0 +1,46 @@
+{
+ "n": 14,
+ "title": "How a defense gives up 413 rushing yards: gaps",
+ "html": "<p><strong>Gaps:</strong> the spaces between offensive blockers are called <strong>gaps</strong>, lettered from the middle out: the A gap is next to the center, then B (between guard and tackle), C (outside the tackle) and D (outside the tight end). On both sides, that's up to 8 holes a runner can go through.</p>\n<p><strong>The defense's rule:</strong> on a run, every gap needs a defender responsible for it. Coaches call this \"gap control\" or \"gap integrity.\" The linemen take some gaps; linebackers and safeties fill the rest (Lesson 2's \"box\" is where this happens).</p>\n<div class=\"diagram\"><svg viewBox=\"0 0 400 248\" role=\"img\" aria-label=\"Run gaps: the spaces between offensive blockers are lettered A through D; each run defender is responsible for one gap, and when one is missing the running back runs straight through the open gap\"><line x1=\"0\" x2=\"400\" y1=\"150\" y2=\"150\" stroke=\"#F2B705\" stroke-width=\"2\"/><text x=\"6\" y=\"145\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"start\" fill=\"rgba(255,255,255,.75)\">line of scrimmage</text><rect x=\"130\" y=\"154\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"140\" y=\"167\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#1F4D31\" font-weight=\"700\">LT</text><rect x=\"156\" y=\"154\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"166\" y=\"167\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#1F4D31\" font-weight=\"700\">LG</text><rect x=\"182\" y=\"154\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"192\" y=\"167\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#1F4D31\" font-weight=\"700\">C</text><rect x=\"208\" y=\"154\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"218\" y=\"167\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#1F4D31\" font-weight=\"700\">RG</text><rect x=\"234\" y=\"154\" width=\"20\" height=\"20\" rx=\"3\" fill=\"#FFFFFF\"/><text x=\"244\" y=\"167\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#1F4D31\" font-weight=\"700\">RT</text><circle cx=\"276\" cy=\"164\" r=\"10\" fill=\"#fff\"/><text x=\"276\" y=\"167\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#1F4D31\" font-weight=\"700\">TE</text><circle cx=\"192\" cy=\"200\" r=\"10\" fill=\"#fff\"/><text x=\"192\" y=\"203\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#1F4D31\" font-weight=\"700\">QB</text><circle cx=\"192\" cy=\"230\" r=\"10\" fill=\"#fff\"/><text x=\"192\" y=\"233\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#1F4D31\" font-weight=\"700\">RB</text><text x=\"128\" y=\"186\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">D</text><text x=\"153\" y=\"186\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">C</text><text x=\"179\" y=\"186\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">B</text><text x=\"205\" y=\"186\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">A</text><text x=\"231\" y=\"186\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">B</text><text x=\"260\" y=\"186\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">C</text><text x=\"292\" y=\"186\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">D</text><text x=\"330\" y=\"190\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"start\" fill=\"rgba(255,255,255,.9)\">gaps = spaces</text><text x=\"330\" y=\"202\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"start\" fill=\"rgba(255,255,255,.9)\">between blockers</text><g><circle cx=\"128\" cy=\"134\" r=\"11\" fill=\"#F2B705\"/><text x=\"128\" y=\"137.5\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">DE</text></g><g><circle cx=\"153\" cy=\"134\" r=\"11\" fill=\"#F2B705\"/><text x=\"153\" y=\"137.5\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">DL</text></g><g><circle cx=\"179\" cy=\"104\" r=\"11\" fill=\"#F2B705\"/><text x=\"179\" y=\"107.5\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">LB</text></g><g><circle cx=\"205\" cy=\"134\" r=\"11\" fill=\"#F2B705\"/><text x=\"205\" y=\"137.5\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">DL</text></g><g><circle cx=\"260\" cy=\"134\" r=\"11\" fill=\"#F2B705\"/><text x=\"260\" y=\"137.5\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">DL</text></g><g><circle cx=\"292\" cy=\"134\" r=\"11\" fill=\"#F2B705\"/><text x=\"292\" y=\"137.5\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">DE</text></g><g opacity=\".35\"><circle cx=\"231\" cy=\"104\" r=\"11\" fill=\"#F2B705\"/><text x=\"231\" y=\"107.5\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">LB</text></g><circle cx=\"231\" cy=\"104\" r=\"15\" fill=\"none\" stroke=\"#ff8a80\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/><text x=\"231\" y=\"82\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"#ff8a80\" font-weight=\"700\">missing / out of position</text><path d=\"M192 220 L231 178 L231 60\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\"/><polygon points=\"231,52 226,62 236,62\" fill=\"#fff\"/><text x=\"200\" y=\"20\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\" font-weight=\"700\">7 gaps, 7 run defenders: each one owns a gap</text><text x=\"200\" y=\"36\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"#ff8a80\">If one is missing or late, the RB runs right through</text></svg></div><p class=\"note\">Letters are the gaps (A next to the center, then B, C, D moving out). Yellow = run defenders, one per gap. Faded LB with red circle = the defender who isn't there.</p>\n<p><strong>How it breaks:</strong> if one defender is missing, out of position, or chasing the wrong player, his gap is empty, and a running back who reaches it is past the line with nobody in front of him except a safety. That's how runs go from 4 yards to 40.</p>\n<p><strong>Last night's example:</strong> Penn State played without LB Cam Smith and DE LaVar Arrington II, two of its gap-fillers. Their backups were a step late, and Northwestern's Joseph Himon II averaged <strong>16 yards a carry</strong>. Northwestern ran for 413 yards in total and barely had to pass (14 throws).</p>\n<p><strong>Connecting it:</strong> once runs work, the defense has to move a safety into the box (Lesson 2's \"heavy box\"), which leaves fewer defenders deep, which opens the deep pass. That's why a team that can't stop the run usually can't stop anything.</p>\n<p><strong>Watch for it today:</strong> on a big run, rewind in your head and look at the moment the runner crossed the line: which gap did he go through, and where was the defender who should have been there?</p>\n<p><strong>Video:</strong> search YouTube for \"run gaps A B C D explained football.\"</p>",
+ "quiz": [
+  {
+   "q": "Which gap is right next to the center?",
+   "o": [
+    "The C gap",
+    "The B gap",
+    "The A gap",
+    "The D gap"
+   ],
+   "a": 2,
+   "w": "Lettered from the middle out: A (beside the center), B (guard–tackle), C (outside the tackle), D (outside the tight end)."
+  },
+  {
+   "q": "Why did Northwestern run for 413 yards against Penn State?",
+   "o": [
+    "Penn State blitzed every play",
+    "It rained",
+    "PSU was missing gap-fillers, so some gaps were empty",
+    "Northwestern threw 40 passes"
+   ],
+   "a": 2,
+   "w": "LB Cam Smith and DE LaVar Arrington II were out; their backups were a step late."
+  },
+  {
+   "q": "Once runs start working, a defense moves a safety into the box. What does that open?",
+   "o": [
+    "The deep pass",
+    "Nothing",
+    "Kick returns",
+    "Field goals"
+   ],
+   "a": 0,
+   "w": "Fewer defenders deep = more room for long throws, which is also why play-action works (Lesson 16)."
+  }
+ ],
+ "stations": [
+  "s2",
+  "s5"
+ ],
+ "added": 1791487824637,
+ "source": "Football Brief"
+}

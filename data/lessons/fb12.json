@@ -1,0 +1,45 @@
+{
+ "n": 12,
+ "title": "The red zone: why drives stall inside the 20",
+ "html": "<p><strong>What it is:</strong> the \"red zone\" is the last 20 yards before the end zone. Teams that get there should score, but the question is whether it's a <strong>touchdown (7)</strong> or a <strong>field goal (3)</strong>. That 4-point gap decides a lot of spreads and totals.</p>\n<p><strong>Why it gets harder:</strong> the field shrinks. At midfield, the defense has to guard about 50 yards of depth, so there are gaps between zones (Lesson 8). At the 10-yard line, the end zone stops at the back line, so the defense only has 20 yards to guard, and the same 7 defenders are packed together.</p>\n<div class=\"diagram\"><svg viewBox=\"0 0 400 250\" role=\"img\" aria-label=\"The same seven pass defenders cover about 50 yards of depth at midfield but only 20 yards near the goal line, so they are packed much closer together\"><text x=\"100\" y=\"18\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\" font-weight=\"700\">At midfield</text><rect x=\"10\" y=\"30\" width=\"180\" height=\"180\" fill=\"rgba(255,255,255,.06)\" stroke=\"rgba(255,255,255,.35)\"/><line x1=\"10\" x2=\"190\" y1=\"210\" y2=\"210\" stroke=\"#F2B705\" stroke-width=\"2\"/><text x=\"100\" y=\"224\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">line of scrimmage</text><text x=\"100\" y=\"240\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"#F2B705\" font-weight=\"700\">~50 yards of room to cover</text><circle cx=\"40\" cy=\"60\" r=\"9\" fill=\"#F2B705\"/><text x=\"40\" y=\"63\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">S</text><circle cx=\"160\" cy=\"60\" r=\"9\" fill=\"#F2B705\"/><text x=\"160\" y=\"63\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">S</text><circle cx=\"30\" cy=\"150\" r=\"9\" fill=\"#F2B705\"/><text x=\"30\" y=\"153\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">CB</text><circle cx=\"170\" cy=\"150\" r=\"9\" fill=\"#F2B705\"/><text x=\"170\" y=\"153\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">CB</text><circle cx=\"70\" cy=\"180\" r=\"9\" fill=\"#F2B705\"/><text x=\"70\" y=\"183\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">LB</text><circle cx=\"130\" cy=\"180\" r=\"9\" fill=\"#F2B705\"/><text x=\"130\" y=\"183\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">LB</text><circle cx=\"100\" cy=\"140\" r=\"9\" fill=\"#F2B705\"/><text x=\"100\" y=\"143\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">NB</text><text x=\"300\" y=\"18\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\" font-weight=\"700\">At the 10-yard line</text><rect x=\"210\" y=\"138\" width=\"180\" height=\"72\" fill=\"rgba(255,255,255,.06)\" stroke=\"rgba(255,255,255,.35)\"/><line x1=\"210\" x2=\"390\" y1=\"210\" y2=\"210\" stroke=\"#F2B705\" stroke-width=\"2\"/><text x=\"300\" y=\"224\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">line of scrimmage</text><text x=\"300\" y=\"240\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"#F2B705\" font-weight=\"700\">only 20 yards: 10 + end zone</text><circle cx=\"240\" cy=\"156\" r=\"9\" fill=\"#F2B705\"/><text x=\"240\" y=\"159\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">S</text><circle cx=\"360\" cy=\"156\" r=\"9\" fill=\"#F2B705\"/><text x=\"360\" y=\"159\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">S</text><circle cx=\"230\" cy=\"186\" r=\"9\" fill=\"#F2B705\"/><text x=\"230\" y=\"189\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">CB</text><circle cx=\"370\" cy=\"186\" r=\"9\" fill=\"#F2B705\"/><text x=\"370\" y=\"189\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">CB</text><circle cx=\"270\" cy=\"196\" r=\"9\" fill=\"#F2B705\"/><text x=\"270\" y=\"199\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">LB</text><circle cx=\"330\" cy=\"196\" r=\"9\" fill=\"#F2B705\"/><text x=\"330\" y=\"199\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">LB</text><circle cx=\"300\" cy=\"174\" r=\"9\" fill=\"#F2B705\"/><text x=\"300\" y=\"177\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"8\" text-anchor=\"middle\" fill=\"#14202B\" font-weight=\"700\">NB</text><line x1=\"210\" x2=\"390\" y1=\"138\" y2=\"138\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"300\" y=\"132\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"#fff\">end line: no room past here</text><line x1=\"210\" x2=\"390\" y1=\"174\" y2=\"174\" stroke=\"#fff\" stroke-dasharray=\"4 3\"/><text x=\"214\" y=\"185\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"start\" fill=\"rgba(255,255,255,.9)\">goal line</text></svg></div><p class=\"note\">Same 7 pass defenders (yellow), same rules. Near the goal line they have less than half the space to guard, so every receiver has a defender within a step or two.</p>\n<p><strong>What changes for the offense:</strong></p>\n<ul>\n  <li><strong>No deep throws:</strong> there's nowhere \"deep\" to go, so the quick, short throws and the bunch routes from Lesson 9 matter more.</li>\n  <li><strong>Running gets harder too:</strong> defenses pack the box (Lesson 2) because the offense can't punish them with a long pass.</li>\n  <li><strong>Big, tall receivers and QBs who can run</strong> become the most valuable players, because a jump ball or a QB scramble can beat tight coverage.</li>\n</ul>\n<p><strong>Why it matters for betting:</strong></p>\n<ul>\n  <li><strong>Totals:</strong> two teams that keep kicking field goals can move the ball all game and still go under. Tonight's 37.5 total assumes a lot of 3s.</li>\n  <li><strong>Touchdown props:</strong> a player's TD chances depend on who gets the ball inside the 10, not on total yards. A receiver with 100 yards between the 20s may never get a goal-line target.</li>\n  <li><strong>The stat to look for:</strong> \"red zone TD %.\" Around 55–60% is average for an NFL team. Philadelphia scored TDs on 71% of red-zone trips going into Monday, Chicago 57%.</li>\n</ul>\n<p><strong>Watch for it tonight:</strong> when Pittsburgh or Cleveland gets inside the 20, guess before each play: run or pass? Then watch whether the drive ends in a TD or a field goal. Count both for each team; that's the game's red-zone story.</p>\n<p><strong>Video:</strong> search YouTube for \"red zone offense explained NFL.\"</p>",
+ "quiz": [
+  {
+   "q": "What is the red zone?",
+   "o": [
+    "The last 20 yards before the end zone",
+    "Midfield",
+    "Inside the 10",
+    "The end zone itself"
+   ],
+   "a": 0,
+   "w": "From the 20 to the goal line."
+  },
+  {
+   "q": "Why do drives stall in the red zone?",
+   "o": [
+    "The clock stops",
+    "Kickers get better",
+    "Less field to defend, so defenders are packed close and deep throws disappear",
+    "More penalties are called"
+   ],
+   "a": 2,
+   "w": "The end zone's back line caps the depth, so coverage gets tight."
+  },
+  {
+   "q": "Two teams keep kicking field goals instead of scoring touchdowns. What usually happens to the total?",
+   "o": [
+    "They can move the ball all game and still go under",
+    "It pushes",
+    "It goes over",
+    "No effect"
+   ],
+   "a": 0,
+   "w": "Sunday's Raiders and Lions both had 4 field goals; 3s instead of 7s keep scores lower than yards suggest."
+  }
+ ],
+ "stations": [
+  "s6"
+ ],
+ "added": 1791487822637,
+ "source": "Football Brief"
+}

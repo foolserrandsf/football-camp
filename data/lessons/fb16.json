@@ -1,0 +1,45 @@
+{
+ "n": 16,
+ "title": "Play-action: why a good running game makes passing easier",
+ "html": "<p><strong>What it is:</strong> on a play-action pass, the quarterback <strong>fakes a handoff</strong> to the running back, then keeps the ball and throws. The fake only has to fool the defense for about one second.</p>\n<p><strong>Why it works:</strong> linebackers are taught to stop the run, so when they see a handoff, they <strong>step forward</strong> toward the line. That step leaves the area <em>behind</em> them empty, and a receiver runs into that space.</p>\n<div class=\"diagram\"><svg viewBox=\"0 0 400 240\" role=\"img\" aria-label=\"Play-action: the quarterback fakes a handoff, the linebackers step toward the line, and the tight end runs behind them into open space\">\n<defs><marker id=\"m16w\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"#FFFFFF\"/></marker><marker id=\"m16y\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto-start-reverse\"><path d=\"M0 0L10 5L0 10z\" fill=\"#F2B705\"/></marker></defs>\n<line x1=\"0\" x2=\"400\" y1=\"120\" y2=\"120\" stroke=\"#F2B705\" stroke-width=\"2\"/>\n<text x=\"6\" y=\"115\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" fill=\"rgba(255,255,255,.75)\">line of scrimmage</text>\n<rect x=\"139\" y=\"123\" width=\"22\" height=\"20\" rx=\"3\" fill=\"#fff\"/><rect x=\"165\" y=\"123\" width=\"22\" height=\"20\" rx=\"3\" fill=\"#fff\"/><rect x=\"191\" y=\"123\" width=\"22\" height=\"20\" rx=\"3\" fill=\"#fff\"/><rect x=\"217\" y=\"123\" width=\"22\" height=\"20\" rx=\"3\" fill=\"#fff\"/><rect x=\"243\" y=\"123\" width=\"22\" height=\"20\" rx=\"3\" fill=\"#fff\"/>\n<circle cx=\"281\" cy=\"133\" r=\"11\" fill=\"#fff\"/><text x=\"281\" y=\"137\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1F4D31\">TE</text>\n<circle cx=\"202\" cy=\"166\" r=\"11\" fill=\"#fff\"/><text x=\"202\" y=\"170\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1F4D31\">QB</text>\n<circle cx=\"202\" cy=\"205\" r=\"11\" fill=\"#fff\"/><text x=\"202\" y=\"209\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#1F4D31\">RB</text>\n<path d=\"M196 176 L 180 196\" stroke=\"#fff\" stroke-width=\"2\" stroke-dasharray=\"4 3\" marker-end=\"url(#m16w)\"/>\n<path d=\"M190 205 L 152 158\" stroke=\"#fff\" stroke-width=\"2\" stroke-dasharray=\"4 3\" marker-end=\"url(#m16w)\"/>\n<text x=\"80\" y=\"200\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" fill=\"#fff\" font-weight=\"700\">1. fake handoff</text>\n<text x=\"80\" y=\"213\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" fill=\"rgba(255,255,255,.85)\">RB runs as if he has it</text>\n<circle cx=\"170\" cy=\"72\" r=\"11\" fill=\"#F2B705\"/><text x=\"170\" y=\"76\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#14202B\">LB</text>\n<circle cx=\"236\" cy=\"72\" r=\"11\" fill=\"#F2B705\"/><text x=\"236\" y=\"76\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#14202B\">LB</text>\n<path d=\"M170 84 L 170 104\" stroke=\"#F2B705\" stroke-width=\"2.5\" marker-end=\"url(#m16y)\"/><path d=\"M236 84 L 236 104\" stroke=\"#F2B705\" stroke-width=\"2.5\" marker-end=\"url(#m16y)\"/>\n<text x=\"20\" y=\"80\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" fill=\"#F2B705\" font-weight=\"700\">2. linebackers step</text>\n<text x=\"20\" y=\"93\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" fill=\"#F2B705\" font-weight=\"700\">up to stop the run</text>\n<circle cx=\"202\" cy=\"18\" r=\"11\" fill=\"#F2B705\"/><text x=\"202\" y=\"22\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#14202B\">S</text>\n<ellipse cx=\"205\" cy=\"48\" rx=\"58\" ry=\"16\" fill=\"rgba(255,255,255,.12)\" stroke=\"#fff\" stroke-dasharray=\"4 3\"/>\n<text x=\"205\" y=\"52\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">open space</text>\n<path d=\"M281 121 L 281 70 L 236 50\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2.5\" marker-end=\"url(#m16w)\"/>\n<text x=\"292\" y=\"80\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" fill=\"#fff\" font-weight=\"700\">3. TE runs into the</text>\n<text x=\"292\" y=\"93\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" fill=\"#fff\" font-weight=\"700\">space they left</text>\n</svg></div>\n<p class=\"note\">White = offense, yellow = defense. Dashed white arrows = the fake (nobody actually has the ball except the QB). Yellow arrows = the linebackers' step forward. Solid white arrow = the tight end's route into the open space, where the QB throws.</p>\n<p><strong>Connecting the dots:</strong></p>\n<ul>\n  <li><strong>It needs a real running game.</strong> If a team can't run, linebackers ignore the fake and stay back. That's why play-action is deadliest for teams like tonight's Falcons: after Bijan Robinson gains 6, 8, 12 yards on runs, the linebackers <em>have</em> to step up.</li>\n  <li><strong>It beats the safeties too.</strong> If the safety (S) also creeps up to help against the run, there's no one deep, and play-action becomes a long touchdown. That's the \"big play\" risk for a defense that's selling out to stop the run.</li>\n  <li><strong>It protects the QB.</strong> The fake freezes pass rushers for a moment, too, giving the QB more time (connects to Lesson 6 on pressure and blitzes).</li>\n  <li><strong>Defenses fight it</strong> by having linebackers read the offensive linemen instead of the running back: linemen who pop up to pass-block give away that it's a pass.</li>\n</ul>\n<p><strong>Why it matters for betting:</strong> a strong running game helps the passing game too. That's why the brief lists Drake London as a reasonable \"yards\" lean tonight even though the main reason to like Atlanta is the run game.</p>\n<p><strong>Watch for it tonight:</strong> when Michael Penix Jr. fakes to Bijan, watch the Saints' linebackers. If they step forward, look behind them.</p>\n<p><strong>Video:</strong> search YouTube for \"play action pass explained linebackers.\"</p>",
+ "quiz": [
+  {
+   "q": "What makes play-action work?",
+   "o": [
+    "Referees can't see the fake",
+    "Receivers are faster than linebackers",
+    "Linebackers step forward to stop the faked run, leaving space behind them",
+    "It's actually a run"
+   ],
+   "a": 2,
+   "w": "The fake buys about one second: enough for the linebackers to step up and open the space behind them."
+  },
+  {
+   "q": "A team can't run the ball at all. How well does its play-action work?",
+   "o": [
+    "The same",
+    "Poorly: linebackers ignore the fake",
+    "Better than usual",
+    "It's not allowed"
+   ],
+   "a": 1,
+   "w": "The fake only works if the defense fears the run."
+  },
+  {
+   "q": "How can linebackers avoid being fooled?",
+   "o": [
+    "Always blitz",
+    "Watch the crowd",
+    "Watch only the running back",
+    "Read the offensive linemen: linemen popping up to pass-block means pass"
+   ],
+   "a": 3,
+   "w": "Linemen fire forward on runs and step back on passes; the fake can't hide that."
+  }
+ ],
+ "stations": [
+  "s5"
+ ],
+ "added": 1791487826637,
+ "source": "Football Brief"
+}

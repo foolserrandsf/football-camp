@@ -1,0 +1,57 @@
+{
+ "n": 18,
+ "title": "Third down: why the \"money down\" is decided on first and second down",
+ "html": "<p><strong>The basics:</strong> the offense has four downs to gain 10 yards (Lesson 3). Fourth down is usually a punt or kick, so <strong>third down is the last real try</strong>. Convert it and the drive lives; fail and the other team gets the ball.</p>\n<div class=\"diagram\"><svg viewBox=\"0 0 400 230\" role=\"img\" aria-label=\"Approximate NFL third-down conversion rates by distance: about 68 percent on 3rd and 1 falling to about 20 percent on 3rd and 11 or more\"><text x=\"10\" y=\"18\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" fill=\"#fff\" font-weight=\"700\">How often offenses convert on 3rd down (approximate NFL rates)</text><rect x=\"30\" y=\"44\" width=\"48\" height=\"136\" rx=\"3\" fill=\"#fff\"/><text x=\"54\" y=\"38\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">~68%</text><text x=\"54\" y=\"196\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"#fff\">3rd & 1</text><rect x=\"102\" y=\"70\" width=\"48\" height=\"110\" rx=\"3\" fill=\"#fff\"/><text x=\"126\" y=\"64\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">~55%</text><text x=\"126\" y=\"196\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"#fff\">3rd & 2–3</text><rect x=\"174\" y=\"90\" width=\"48\" height=\"90\" rx=\"3\" fill=\"#fff\"/><text x=\"198\" y=\"84\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">~45%</text><text x=\"198\" y=\"196\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"#fff\">3rd & 4–6</text><rect x=\"246\" y=\"114\" width=\"48\" height=\"66\" rx=\"3\" fill=\"#F2B705\"/><text x=\"270\" y=\"108\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">~33%</text><text x=\"270\" y=\"196\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"#fff\">3rd & 7–10</text><rect x=\"318\" y=\"140\" width=\"48\" height=\"40\" rx=\"3\" fill=\"#F2B705\"/><text x=\"342\" y=\"134\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" text-anchor=\"middle\" fill=\"#fff\" font-weight=\"700\">~20%</text><text x=\"342\" y=\"196\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" text-anchor=\"middle\" fill=\"#fff\">3rd & 11+</text><line x1=\"20\" x2=\"390\" y1=\"180\" y2=\"180\" stroke=\"rgba(255,255,255,.6)\"/><text x=\"10\" y=\"220\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" fill=\"#F2B705\">Yellow = \"behind schedule\": the defense can blitz and play dime (Lessons 2 and 6).</text></svg></div>\n<p class=\"note\">Bar height = roughly how often NFL offenses convert from each distance. These are rounded league-wide figures to show the pattern, not exact numbers for any team.</p>\n<p><strong>The key idea: \"staying on schedule.\"</strong> Third-and-2 is a coin flip in the offense's favor; third-and-9 is a long shot. So the real fight is on first and second down. A 4-yard run on first down leaves 2nd-and-6, then 3rd-and-short. A sack or an incomplete leaves 3rd-and-long.</p>\n<p><strong>What the defense does on 3rd-and-long:</strong> it knows a pass is coming, so it brings in extra defensive backs (dime, Lesson 2) and often blitzes (Lesson 6), aiming to force a quick, short throw that ends short of the marker.</p>\n<p><strong>Tonight's example:</strong> Tampa Bay's defense is top-5 on third down; Dallas's is 31st. Tampa's rookie QB Jalon Daniels will face more blitzes on 3rd-and-long, but Dallas's poor third-down defense gives him a better chance than most rookies. Watch the distance on each third down: if Tampa keeps facing 3rd-and-7+, it will struggle to cover.</p>\n<p><strong>Connecting the dots:</strong> third-down success keeps drives (and the clock, Lesson 11) going; red-zone success (Lesson 12) turns those drives into touchdowns instead of field goals. Together they decide most spreads.</p>\n<p><strong>Why it matters for betting:</strong> teams that convert third downs run more plays, so their QB's attempts and their total points go up. A strong third-down defense is one of the best reasons to take an underdog with points.</p>\n<p><strong>Watch for it tonight:</strong> before each third down, note the distance and guess run or pass (the Film Room drill works perfectly here). Count how many of Tampa's third downs are 6 yards or less.</p>\n<p><strong>Video:</strong> search YouTube for \"third down football strategy explained.\"</p>",
+ "quiz": [
+  {
+   "q": "Why is third down called the 'money down'?",
+   "o": [
+    "It's worth extra points",
+    "It's usually the last real try before punting or kicking",
+    "The clock stops",
+    "Teams score most on third down"
+   ],
+   "a": 1,
+   "w": "Fourth down usually means a punt or field goal, so third down decides the drive."
+  },
+  {
+   "q": "Which situation is most likely to be converted?",
+   "o": [
+    "3rd and 9",
+    "3rd and 12",
+    "3rd and 6",
+    "3rd and 1"
+   ],
+   "a": 3,
+   "w": "Short distances convert most often; long ones least."
+  },
+  {
+   "q": "What does 'staying on schedule' mean?",
+   "o": [
+    "Calling timeouts on time",
+    "Gaining enough on 1st and 2nd down to face a short 3rd down",
+    "Running the play clock out",
+    "Scoring before halftime"
+   ],
+   "a": 1,
+   "w": "Good early-down plays create short, easy third downs."
+  },
+  {
+   "q": "On 3rd and 10, what does a defense usually do?",
+   "o": [
+    "Kneel",
+    "Load the box with linemen",
+    "Bring extra defensive backs and often blitz",
+    "Call a timeout"
+   ],
+   "a": 2,
+   "w": "It expects a pass, so it adds DBs (dime) and pressure."
+  }
+ ],
+ "stations": [
+  "s6",
+  "s8"
+ ],
+ "added": 1791487828637,
+ "source": "Football Brief"
+}

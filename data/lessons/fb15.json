@@ -1,0 +1,45 @@
+{
+ "n": 15,
+ "title": "Kickoffs: the new rules and why returns matter again",
+ "html": "<p><strong>What a kickoff is:</strong> the play that starts each half and follows every score. One team kicks the ball deep; the other catches it and tries to run it back.</p>\n<p><strong>The NFL's newer kickoff rules</strong> (the \"dynamic kickoff\") changed how it looks:</p>\n<ul>\n  <li><strong>Everyone lines up close together.</strong> The kicking team (except the kicker) stands at the <em>opponent's</em> 40-yard line; the return team's blockers stand 5 yards away. Nobody can move until the ball lands or a returner touches it.</li>\n  <li><strong>The landing zone:</strong> the kick has to land between the 20-yard line and the goal line. Inside that zone, it must be returned.</li>\n  <li><strong>Kicks into the end zone</strong> are a touchback to the 35, which gives the offense good field position, so kickers try to land it short of the goal line instead.</li>\n  <li><strong>Why:</strong> fewer full-speed collisions (safer), and more returns (more exciting). College still uses the older rules, with more touchbacks.</li>\n</ul>\n<div class=\"diagram\"><svg viewBox=\"0 0 400 228\" role=\"img\" aria-label=\"NFL kickoff setup: the kicker kicks from his own 35, the kicking team lines up at the opponent 40, and kicks landing between the 20 and the goal line must be returned\"><rect x=\"10.0\" y=\"40\" width=\"20\" height=\"120\" fill=\"rgba(242,183,5,.25)\"/><rect x=\"370.0\" y=\"40\" width=\"20\" height=\"120\" fill=\"rgba(255,255,255,.12)\"/><line x1=\"30.0\" x2=\"30.0\" y1=\"40\" y2=\"160\" stroke=\"rgba(255,255,255,0.5)\"/><text x=\"30.0\" y=\"174\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">G</text><line x1=\"64.0\" x2=\"64.0\" y1=\"40\" y2=\"160\" stroke=\"rgba(255,255,255,0.2)\"/><text x=\"64.0\" y=\"174\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">10</text><line x1=\"98.0\" x2=\"98.0\" y1=\"40\" y2=\"160\" stroke=\"rgba(255,255,255,0.2)\"/><text x=\"98.0\" y=\"174\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">20</text><line x1=\"132.0\" x2=\"132.0\" y1=\"40\" y2=\"160\" stroke=\"rgba(255,255,255,0.2)\"/><text x=\"132.0\" y=\"174\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">30</text><line x1=\"166.0\" x2=\"166.0\" y1=\"40\" y2=\"160\" stroke=\"rgba(255,255,255,0.2)\"/><text x=\"166.0\" y=\"174\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">40</text><line x1=\"200.0\" x2=\"200.0\" y1=\"40\" y2=\"160\" stroke=\"rgba(255,255,255,0.2)\"/><text x=\"200.0\" y=\"174\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">50</text><line x1=\"234.0\" x2=\"234.0\" y1=\"40\" y2=\"160\" stroke=\"rgba(255,255,255,0.2)\"/><text x=\"234.0\" y=\"174\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">40</text><line x1=\"268.0\" x2=\"268.0\" y1=\"40\" y2=\"160\" stroke=\"rgba(255,255,255,0.2)\"/><text x=\"268.0\" y=\"174\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">30</text><line x1=\"302.0\" x2=\"302.0\" y1=\"40\" y2=\"160\" stroke=\"rgba(255,255,255,0.2)\"/><text x=\"302.0\" y=\"174\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">20</text><line x1=\"336.0\" x2=\"336.0\" y1=\"40\" y2=\"160\" stroke=\"rgba(255,255,255,0.2)\"/><text x=\"336.0\" y=\"174\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">10</text><line x1=\"370.0\" x2=\"370.0\" y1=\"40\" y2=\"160\" stroke=\"rgba(255,255,255,0.5)\"/><text x=\"370.0\" y=\"174\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">G</text><line x1=\"149.0\" x2=\"149.0\" y1=\"34\" y2=\"166\" stroke=\"#fff\" stroke-width=\"2\"/><text x=\"149.0\" y=\"28\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"end\" fill=\"rgba(255,255,255,.9)\" font-weight=\"700\">kicker at own 35</text><line x1=\"234.0\" x2=\"234.0\" y1=\"34\" y2=\"166\" stroke=\"#F2B705\" stroke-width=\"2\"/><text x=\"234.0\" y=\"18\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"#F2B705\" font-weight=\"700\">kick team lines up here</text><line x1=\"251.0\" x2=\"251.0\" y1=\"34\" y2=\"166\" stroke=\"#F2B705\" stroke-width=\"2\" stroke-dasharray=\"4 3\"/><rect x=\"302.0\" y=\"40\" width=\"68.0\" height=\"120\" fill=\"rgba(242,183,5,.18)\"/><text x=\"336.0\" y=\"100\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"#F2B705\" font-weight=\"700\">landing zone</text><text x=\"336.0\" y=\"112\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"#F2B705\">(20 to goal line)</text><path d=\"M149.0 140 Q 251.0 60 342.8 130\" fill=\"none\" stroke=\"#fff\" stroke-width=\"2\" stroke-dasharray=\"5 4\"/><text x=\"200\" y=\"206\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">Ball lands in the zone → must be returned. Into the end zone → touchback to the 35.</text><text x=\"200\" y=\"220\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"9\" text-anchor=\"middle\" fill=\"rgba(255,255,255,.9)\">Nobody moves until the ball lands or is touched, so returns are common again.</text></svg></div><p class=\"note\">White dashed arc = the kick. Yellow solid line = where the kicking team stands; dashed = where the return team's blockers stand (5 yards apart). Yellow box = the landing zone.</p>\n<p><strong>Connecting it:</strong> field position (Lesson 4) starts here. A good return to the 40 instead of the 30 is 10 free yards: closer to field-goal range (Lesson 4's \"add 17\" math) and fewer plays needed to score.</p>\n<p><strong>Why it matters for betting:</strong> more returns means more chances for a long return or a return touchdown, which can swing a spread by 7 points out of nowhere. Teams with an elite returner score a little more than their offense alone suggests.</p>\n<p><strong>Watch for it today:</strong> on each kickoff, note where the offense starts its drive. Starting past the 35 is a win for the return team.</p>\n<p><strong>Video:</strong> search YouTube for \"NFL dynamic kickoff rules explained.\"</p>",
+ "quiz": [
+  {
+   "q": "Under the NFL's kickoff rules, a kick into the end zone is:",
+   "o": [
+    "Always returned",
+    "A penalty",
+    "A touchback to the 35",
+    "A touchback to the 25"
+   ],
+   "a": 2,
+   "w": "The 35 is good field position for the offense, so kickers aim short of the goal line."
+  },
+  {
+   "q": "Where must a kickoff land so it has to be returned?",
+   "o": [
+    "Between the 20 and the goal line",
+    "In the end zone",
+    "Before the 40",
+    "Anywhere past midfield"
+   ],
+   "a": 0,
+   "w": "That's the landing zone."
+  },
+  {
+   "q": "Why does a return to the 40 instead of the 30 matter?",
+   "o": [
+    "It's worth a point",
+    "It doesn't",
+    "It stops the clock",
+    "10 free yards, closer to field-goal range"
+   ],
+   "a": 3,
+   "w": "Field position again: with the \"add 17\" rule, every 10 yards changes what kicks are possible."
+  }
+ ],
+ "stations": [
+  "s6"
+ ],
+ "added": 1791487825637,
+ "source": "Football Brief"
+}
