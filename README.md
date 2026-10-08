@@ -1,4 +1,4 @@
-# Football Film Room
+# Football Camp
 
 A 4-hour football crash course built around one skill: reading the field before the snap and predicting what's coming. It's a single static web page you can add to your phone's home screen. No build step and no server.
 
@@ -10,7 +10,7 @@ A 4-hour football crash course built around one skill: reading the field before 
 
 ## Where your data lives
 
-- **Film Room drill, game reviews and playbook** → `foolserrandsf/football-film-room`, branch `data` (`data/games/`, `data/reviews/`, `data/plays/`). This is the same place the standalone Film Room app reads and writes, so a game logged in either app shows up in both, and the morning game review writes there.
+- **Drill (Station 8), game reviews and playbook** → `foolserrandsf/football-film-room`, branch `data` (`data/games/`, `data/reviews/`, `data/plays/`). This is the same place the standalone Film Room app reads and writes, so a game logged in either app shows up in both, and the morning game review writes there.
 - **Camp's quiz answers, snap-reading answers and station checkmarks** → this repo, branch `data` (`data/progress.json`).
 
 Camp never edits football-film-room's `main` branch or its `data/progress.json` (that file belongs to the standalone app).
@@ -20,7 +20,7 @@ Camp never edits football-film-room's `main` branch or its `data/progress.json` 
 Each device needs a sync key that can write to **both** repos:
 
 1. Go to **github.com/settings/personal-access-tokens/new**.
-2. Name it "Film Room" and pick an expiration date.
+2. Name it "Football Camp" and pick an expiration date.
 3. **Repository access:** Only select repositories → `football-camp` and `football-film-room`.
 4. **Permissions:** Repository permissions → **Contents: Read and write**.
 5. Generate it, copy it, and paste it in the app under **Station 8 → Sync settings**.
