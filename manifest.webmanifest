@@ -1,6 +1,6 @@
 {
-  "name": "Football Film Room",
-  "short_name": "Film Room",
+  "name": "Football Camp",
+  "short_name": "Football Camp",
   "description": "A 4-hour football crash course with a pre-snap prediction drill and game reviews.",
   "start_url": "./",
   "scope": "./",
