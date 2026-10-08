@@ -1,6 +1,6 @@
 // Offline support for the app shell. Bump VERSION whenever you change index.html so phones pick up the update.
 // GitHub API and raw file requests (your synced games and reviews) are never cached here.
-const VERSION = 'fcamp-v5';
+const VERSION = 'fcamp-v6';
 const ASSETS = ['./', 'index.html', 'manifest.webmanifest', 'icon.svg', 'icon-180.png', 'icon-192.png', 'icon-512.png'];
 
 self.addEventListener('install', e => {

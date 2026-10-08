@@ -186,11 +186,11 @@ footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);paddin
 <div class="topline">
   <p><strong>The goal:</strong> read the field before the snap and predict what's coming. Everything here serves that.</p>
   <p><strong>Ignore:</strong> team playbook names, the 4-3 vs 3-4 debate, route tree numbers, blocking-scheme jargon, special teams schemes, wishbone and single wing.</p>
-  <p><strong>Finish with:</strong> Station 8, the one-quarter prediction drill. It's the step that puts you ahead of people who've only read about this.</p>
+  <p><strong>Finish with:</strong> Station 8, the Film Room Drill: one quarter of pre-snap predictions. It's the step that puts you ahead of people who've only read about this.</p>
 </div>
 
 <nav class="toc" id="toc">
-  <a href="#s1">1 Personnel</a><a href="#s2">2 The box</a><a href="#s3">3 Safeties</a><a href="#s4">4 Formations</a><a href="#s5">5 Plays</a><a href="#s6">6 Situations</a><a href="#s7">7 Read the snap</a><a href="#s8">8 The drill</a><a href="#f101">Football 101</a>
+  <a href="#s1">1 Personnel</a><a href="#s2">2 The box</a><a href="#s3">3 Safeties</a><a href="#s4">4 Formations</a><a href="#s5">5 Plays</a><a href="#s6">6 Situations</a><a href="#s7">7 Read the snap</a><a href="#s8">8 Film Room Drill</a><a href="#f101">Football 101</a>
 </nav>
 
 <!-- 1 -->
@@ -337,7 +337,7 @@ footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);paddin
 <!-- 8 -->
 <section id="s8" data-station="s8">
 <p class="eyebrow">Station 8 · 40 min</p>
-<h2>The drill: predict one quarter</h2>
+<h2>Film Room Drill: predict one quarter</h2>
 <div class="rel" data-rel="s8" hidden></div>
 <p>Put on any game replay. Pause before every snap. Log the game clock and yard line from the TV graphic, what you see, and your call, then play it and log what happened. The clock and yard line let your game review find the exact play, even if you skip snaps. For a bonus, name the exact play you expect (Station 5); the review grades it and corrects anything you logged wrong. Do 15–20 snaps, about one quarter.</p>
 <div class="lesson"><p class="tag">The benchmark</p><p>Roughly 55–60% of NFL plays are passes, so guessing "pass" every time scores about that. <strong>Beat 70%</strong> and your reads are doing real work. Snaps save to GitHub, by game and quarter, in the same place as the standalone Film Room app, so once you set up sync they’re on every device you use, and each game gets an automatic review the morning after.</p></div>
@@ -761,7 +761,7 @@ function bonusTile(){var g=games[cur],rv=reviews[cur];if(!g)return '';var tried=
   var hit=0,graded=0;if(rv&&Array.isArray(rv.snapNotes))g.snaps.forEach(function(r){if(!r.play)return;rv.snapNotes.forEach(function(n){if(n&&+n.t===+r.t&&n.bonus){graded++;if(n.bonus.flag==='right')hit++}})});
   return '<div class="tile"><p class="k">Bonus play calls</p><p class="v">'+(graded?hit+' / '+graded:tried)+'</p><p class="s">'+(graded?'named exactly right':'tried; graded after the game review')+'</p></div>'}
 /* ---------- Football 101 (lessons copied from the Football Brief) ---------- */
-var STN={s1:'Personnel',s2:'The box',s3:'Safeties & coverages',s4:'Formations',s5:'Plays',s6:'Situations',s7:'Read the snap',s8:'The drill'};
+var STN={s1:'Personnel',s2:'The box',s3:'Safeties & coverages',s4:'Formations',s5:'Plays',s6:'Situations',s7:'Read the snap',s8:'Film Room Drill'};
 var lessonSig='';
 function lessonsAll(){var m={},rc=PROG_T.rc;Object.keys(rc).forEach(function(p){var x=/^data\/lessons\/fb(\d+)\.json$/.exec(p);var d=rc[p]&&rc[p].data;
   if(x&&d&&typeof d==='object')m[+x[1]]={n:+x[1],title:String(d.title||''),html:String(d.html||''),quiz:Array.isArray(d.quiz)?d.quiz:[],stations:Array.isArray(d.stations)?d.stations.filter(function(s){return STN[s]}):[]}});
