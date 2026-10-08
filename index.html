@@ -315,7 +315,7 @@ footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);paddin
 <p class="eyebrow">Station 8 · 40 min</p>
 <h2>The drill: predict one quarter</h2>
 <p>Put on any game replay. Pause before every snap. Log the game clock and yard line from the TV graphic, what you see, and your call, then play it and log what happened. The clock and yard line let your game review find the exact play, even if you skip snaps. For a bonus, name the exact play you expect (Station 5); the review grades it and corrects anything you logged wrong. Do 15–20 snaps, about one quarter.</p>
-<div class="lesson"><p class="tag">The benchmark</p><p>Roughly 55–60% of NFL plays are passes, so guessing "pass" every time scores about that. <strong>Beat 70%</strong> and your reads are doing real work. Snaps save to your GitHub repo, by game and quarter, so once you set up sync they’re on every device you use, and each game gets an automatic review the morning after.</p></div>
+<div class="lesson"><p class="tag">The benchmark</p><p>Roughly 55–60% of NFL plays are passes, so guessing "pass" every time scores about that. <strong>Beat 70%</strong> and your reads are doing real work. Snaps save to GitHub, by game and quarter, in the same place as the standalone Film Room app, so once you set up sync they’re on every device you use, and each game gets an automatic review the morning after.</p></div>
 <div class="gamebar">
   <label for="f-game">Game<select id="f-game"></select></label>
   <label for="f-q">Quarter<select id="f-q"><option>Q1</option><option>Q2</option><option>Q3</option><option>Q4</option><option>OT</option></select></label>
@@ -327,18 +327,20 @@ footer{color:var(--muted);font-size:14px;border-top:1px solid var(--line);paddin
 <div class="syncrow"><p class="sync" id="syncNote">Loading your games…</p><button class="btn ghost small" type="button" id="syncBtn">Sync settings</button></div>
 <div class="syncpanel" id="syncPanel" hidden>
   <h3>Sync with GitHub</h3>
-  <p>Your games, quiz answers and progress save as files in your repo <strong id="repoName">foolserrandsf/football-camp</strong>, on its <code>data</code> branch. Each device needs a sync key once. Make one that can only touch this repo:</p>
+  <p>Your Film Room games, game reviews and playbook save to <strong id="repoName">foolserrandsf/football-film-room</strong>, the same place the standalone Film Room app uses. Camp's quiz answers and station checkmarks save to <strong id="repoName2">foolserrandsf/football-camp</strong>. Both use the <code>data</code> branch. Each device needs a sync key once, and the key needs both repos.</p>
+  <p><strong>Already have a key?</strong> You don't need to paste it again. On GitHub, open <a href="https://github.com/settings/personal-access-tokens" target="_blank" rel="noopener">Settings → Developer settings → Fine-grained tokens</a>, open your key, and under Repository access add the repo it's missing. Then come back and reopen the app.</p>
+  <p><strong>New key:</strong></p>
   <ol>
     <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">github.com/settings/personal-access-tokens/new</a> (signed in to GitHub).</li>
     <li><strong>Token name:</strong> Film Room. <strong>Expiration:</strong> pick a date up to a year out.</li>
-    <li><strong>Repository access:</strong> Only select repositories → <strong>football-camp</strong>.</li>
+    <li><strong>Repository access:</strong> Only select repositories → <strong>football-camp</strong> and <strong>football-film-room</strong>.</li>
     <li><strong>Permissions:</strong> Repository permissions → <strong>Contents</strong> → <strong>Read and write</strong>.</li>
     <li>Tap <strong>Generate token</strong>, copy it (starts with <code>github_pat_</code>), paste it below.</li>
   </ol>
   <label for="f-token" class="tok">Sync key<input id="f-token" type="password" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="github_pat_…"></label>
   <div class="actions"><button class="btn" type="button" id="tokSave">Save key and sync</button><button class="btn warn" type="button" id="tokRemove" hidden>Remove key from this device</button></div>
   <p class="note" id="tokMsg" aria-live="polite"></p>
-  <p class="note">The key stays on this device only. On a second phone or computer, make or reuse a key and paste it there too. Your repo is public, so anyone can read your logged snaps; nobody can change them without a key.</p>
+  <p class="note">The key stays on this device only. On a second phone or computer, make or reuse a key and paste it there too. Both repos are public, so anyone can read your logged snaps; nobody can change them without a key.</p>
 </div>
 <form class="form" id="drillForm" novalidate>
   <label for="f-clock">Game clock<input id="f-clock" placeholder="e.g. 8:42" inputmode="numeric" autocomplete="off"></label>
@@ -524,19 +526,27 @@ var CFG=(function(){var host=location.hostname,parts=location.pathname.split('/'
 var TOK_KEY='fcamp_github_key';
 function getTok(){try{return localStorage.getItem(TOK_KEY)||''}catch(e){return ''}}
 function setTok(t){try{if(t)localStorage.setItem(TOK_KEY,t);else localStorage.removeItem(TOK_KEY)}catch(e){}}
-var rc=store.get('rc',{});            // remote cache: path -> {sha, data}
+// Two places on GitHub, each with its own remote cache (path -> {sha, data}):
+// DATA = the Film Room's games, reviews and playbook, shared with the standalone Film Room app.
+// PROG = Camp's own quiz answers, snap reads and station checkmarks.
+var DATA_T={owner:'foolserrandsf',repo:'football-film-room',branch:'data',sk:'rcD',rc:store.get('rcD',{}),
+  want:function(p){return /^data\/(games|reviews|plays)\/[^\/]+\.json$/.test(p)}};
+var PROG_T={owner:CFG.owner,repo:CFG.repo,branch:'data',sk:'rcP',rc:store.get('rcP',{}),
+  want:function(p){return p==='data/progress.json'}};
+try{localStorage.removeItem('fcamp_rc')}catch(e){}
+function repoLabel(T){return T.owner+'/'+T.repo}
 var dirty=store.get('dirty',{});      // game id -> unsaved local changes
 var delPending=store.get('delPending',{}); // game ids deleted here, not yet deleted on GitHub
 var tombs={}, ver={}, pushTimer=null, queue=Promise.resolve(), lastOk=0, syncErr='';
 
-function api(path,opt){opt=opt||{};var hd={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'},t=getTok();
+function api(path,opt,T){opt=opt||{};T=T||DATA_T;var hd={'Accept':'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'},t=getTok();
   if(t)hd['Authorization']='Bearer '+t;if(opt.body)hd['Content-Type']='application/json';
-  return fetch('https://api.github.com/repos/'+CFG.owner+'/'+CFG.repo+path,{method:opt.method||'GET',headers:hd,body:opt.body?JSON.stringify(opt.body):undefined,cache:'no-store'})
-    .then(function(r){if(r.status===204)return null;return r.json().catch(function(){return null}).then(function(j){if(!r.ok){var e=new Error((j&&j.message)||('HTTP '+r.status));e.status=r.status;throw e}return j})})}
+  return fetch('https://api.github.com/repos/'+T.owner+'/'+T.repo+path,{method:opt.method||'GET',headers:hd,body:opt.body?JSON.stringify(opt.body):undefined,cache:'no-store'})
+    .then(function(r){if(r.status===204)return null;return r.json().catch(function(){return null}).then(function(j){if(!r.ok){var e=new Error((j&&j.message)||('HTTP '+r.status));e.status=r.status;e.repo=repoLabel(T);throw e}return j})})}
 function b64(s){var by=new TextEncoder().encode(s),bin='';for(var i=0;i<by.length;i+=0x8000)bin+=String.fromCharCode.apply(null,by.subarray(i,i+0x8000));return btoa(bin)}
 function unb64(s){var bin=atob(String(s).replace(/\s/g,'')),u=new Uint8Array(bin.length);for(var i=0;i<bin.length;i++)u[i]=bin.charCodeAt(i);return new TextDecoder().decode(u)}
 function gPath(id){return 'data/games/'+id+'.json'}
-function coll(name){var m={},re=new RegExp('^data/'+name+'/([^/]+)\\.json$');Object.keys(rc).forEach(function(p){var x=re.exec(p);if(x&&rc[p]&&rc[p].data&&typeof rc[p].data==='object')m[x[1]]=rc[p].data});return m}
+function coll(name){var rc=DATA_T.rc,m={},re=new RegExp('^data/'+name+'/([^/]+)\\.json$');Object.keys(rc).forEach(function(p){var x=re.exec(p);if(x&&rc[p]&&rc[p].data&&typeof rc[p].data==='object')m[x[1]]=rc[p].data});return m}
 function cleanGame(x){return {name:String(x.name||'Untitled game').slice(0,80),created:+x.created||0,snaps:Array.isArray(x.snaps)?x.snaps.filter(function(s){return s&&typeof s==='object'}):[]}}
 function applyRemote(){
   reviews=coll('reviews');plays=coll('plays');
@@ -555,33 +565,39 @@ function showStatus(){
 }
 function errText(e){
   if(e&&e.status===401)return 'GitHub rejected your sync key (it may have expired). Open Sync settings and paste a new one. Your snaps are safe on this device.';
-  if(e&&(e.status===403||e.status===404))return 'Your sync key can’t write to '+CFG.owner+'/'+CFG.repo+'. Check that it has Contents: Read and write for that repo. Your snaps are safe on this device.';
+  if(e&&(e.status===403||e.status===404))return 'Your sync key can’t save to '+(e.repo||repoLabel(DATA_T))+'. On GitHub, give the key Contents: Read and write on that repo (Sync settings shows how). Your snaps are safe on this device.';
   return 'Couldn’t reach GitHub. Your snaps are kept on this device and will save when you’re back online.'}
 
-// Read everything from the data branch: 2 API calls, then file contents from raw.githubusercontent.com (pinned to the commit, so never stale).
+// Read each repo's data branch: 2 API calls, then file contents from raw.githubusercontent.com (pinned to the commit, so never stale).
+function pullT(T){
+  return api('/branches/'+T.branch,null,T).then(function(br){
+    var csha=br.commit.sha;
+    return api('/git/trees/'+br.commit.commit.tree.sha+'?recursive=1',null,T).then(function(tr){
+      var ents=(tr&&tr.tree||[]).filter(function(e){return e.type==='blob'&&T.want(e.path)}),seen={};
+      return Promise.all(ents.map(function(e){seen[e.path]=1;if(T.rc[e.path]&&T.rc[e.path].sha===e.sha)return null;
+        return fetch('https://raw.githubusercontent.com/'+T.owner+'/'+T.repo+'/'+csha+'/'+e.path).then(function(r){if(!r.ok)throw new Error('raw '+r.status);return r.json()})
+          .then(function(d){T.rc[e.path]={sha:e.sha,data:d}}).catch(function(){})}))
+        .then(function(){Object.keys(T.rc).forEach(function(p){if(!seen[p])delete T.rc[p]})});
+    });
+  }).catch(function(e){if(e&&e.status===404&&!e.message.match(/credentials/i)){T.rc={};return}throw e})
+    .then(function(){store.set(T.sk,T.rc)});
+}
 var pulling=null;
 function pull(){
   if(pulling)return pulling;
-  pulling=api('/branches/'+CFG.branch).then(function(br){
-    var csha=br.commit.sha;
-    return api('/git/trees/'+br.commit.commit.tree.sha+'?recursive=1').then(function(tr){
-      var ents=(tr&&tr.tree||[]).filter(function(e){return e.type==='blob'&&(/^data\/(games|reviews|plays)\/[^\/]+\.json$/.test(e.path)||e.path==='data/progress.json')}),seen={};
-      return Promise.all(ents.map(function(e){seen[e.path]=1;if(rc[e.path]&&rc[e.path].sha===e.sha)return null;
-        return fetch('https://raw.githubusercontent.com/'+CFG.owner+'/'+CFG.repo+'/'+csha+'/'+e.path).then(function(r){if(!r.ok)throw new Error('raw '+r.status);return r.json()})
-          .then(function(d){rc[e.path]={sha:e.sha,data:d}}).catch(function(){})}))
-        .then(function(){Object.keys(rc).forEach(function(p){if(!seen[p])delete rc[p]})});
-    });
-  }).catch(function(e){if(e&&e.status===404){rc={};return}throw e})
-    .then(function(){store.set('rc',rc);applyRemote();if(mergeProg(rc['data/progress.json']&&rc['data/progress.json'].data)&&getTok())schedulePush();if(getTok()){syncErr='';lastOk=Date.now()}showStatus()})
+  var err=null,keep=function(e){if(!err)err=e};
+  pulling=Promise.all([pullT(DATA_T).catch(keep),pullT(PROG_T).catch(keep)])
+    .then(function(){applyRemote();var pr=PROG_T.rc['data/progress.json'];if(mergeProg(pr&&pr.data)&&getTok())schedulePush();
+      if(err)throw err;if(getTok()){syncErr='';lastOk=Date.now()}showStatus()})
     .catch(function(e){if(getTok()){syncErr=errText(e)}showStatus()})
     .then(function(){pulling=null});
   return pulling;
 }
-function remoteFile(path){return api('/contents/'+path+'?ref='+CFG.branch).then(function(j){return {sha:j.sha,data:JSON.parse(unb64(j.content))}}).catch(function(e){if(e&&e.status===404)return null;throw e})}
-function put(path,data,message){
-  var body={message:message,content:b64(JSON.stringify(data,null,1)+'\n'),branch:CFG.branch};
-  if(rc[path]&&rc[path].sha)body.sha=rc[path].sha;
-  return api('/contents/'+path,{method:'PUT',body:body}).then(function(r){rc[path]={sha:r.content.sha,data:JSON.parse(JSON.stringify(data))};store.set('rc',rc)})}
+function remoteFile(path,T){T=T||DATA_T;return api('/contents/'+path+'?ref='+T.branch,null,T).then(function(j){return {sha:j.sha,data:JSON.parse(unb64(j.content))}}).catch(function(e){if(e&&e.status===404)return null;throw e})}
+function put(path,data,message,T){T=T||DATA_T;
+  var body={message:message,content:b64(JSON.stringify(data,null,1)+'\n'),branch:T.branch};
+  if(T.rc[path]&&T.rc[path].sha)body.sha=T.rc[path].sha;
+  return api('/contents/'+path,{method:'PUT',body:body},T).then(function(r){T.rc[path]={sha:r.content.sha,data:JSON.parse(JSON.stringify(data))};store.set(T.sk,T.rc)})}
 function pushGame(id){
   var g=games[id];if(!g){delete dirty[id];return Promise.resolve()}
   var v0=ver[id]||0,path=gPath(id),msgTxt='Drill: '+g.name+' ('+g.snaps.length+' snaps)';
@@ -589,36 +605,37 @@ function pushGame(id){
     if(!(e&&(e.status===409||e.status===422)))throw e;
     // Changed on another device: merge both lists of snaps, keeping anything undone here out.
     return remoteFile(path).then(function(rem){
-      if(rem){rc[path]={sha:rem.sha,data:rem.data};var tomb=tombs[id]||{},have={};g.snaps.forEach(function(s){have[s.t]=1});
+      if(rem){DATA_T.rc[path]={sha:rem.sha,data:rem.data};var tomb=tombs[id]||{},have={};g.snaps.forEach(function(s){have[s.t]=1});
         (cleanGame(rem.data).snaps).forEach(function(s){if(!have[s.t]&&!tomb[s.t])g.snaps.push(s)});g.snaps.sort(function(a,b){return a.t-b.t})}
-      else delete rc[path];
+      else delete DATA_T.rc[path];
       return put(path,cleanGame(g),msgTxt)});
   }).then(function(){if((ver[id]||0)===v0){delete dirty[id];delete tombs[id]}store.set('dirty',dirty)});
 }
 function pushProg(){
   var path='data/progress.json',snap=JSON.stringify(PROG);
   var done_=function(){if(JSON.stringify(PROG)===snap){progDirty=false;store.set('progDirty',false)}};
-  return put(path,JSON.parse(snap),'Progress: quizzes and stations').then(done_).catch(function(e){
+  return put(path,JSON.parse(snap),'Progress: quizzes and stations',PROG_T).then(done_).catch(function(e){
     if(!(e&&(e.status===409||e.status===422)))throw e;
-    return remoteFile(path).then(function(rem){if(rem)rc[path]={sha:rem.sha,data:rem.data};else delete rc[path];mergeProg(rem&&rem.data);snap=JSON.stringify(PROG);
-      return put(path,JSON.parse(snap),'Progress: quizzes and stations').then(done_)})});
+    return remoteFile(path,PROG_T).then(function(rem){if(rem)PROG_T.rc[path]={sha:rem.sha,data:rem.data};else delete PROG_T.rc[path];mergeProg(rem&&rem.data);snap=JSON.stringify(PROG);
+      return put(path,JSON.parse(snap),'Progress: quizzes and stations',PROG_T).then(done_)})});
 }
 function deleteRemote(id){
   var paths=[gPath(id),'data/reviews/'+id+'.json'];
   return paths.reduce(function(p,path){return p.then(function(){
-    var go=rc[path]&&rc[path].sha?Promise.resolve(rc[path].sha):remoteFile(path).then(function(r){return r&&r.sha});
-    return go.then(function(sha){if(!sha)return;return api('/contents/'+path,{method:'DELETE',body:{message:'Drill: delete '+path,sha:sha,branch:CFG.branch}}).catch(function(e){if(!(e&&e.status===404))throw e})})
-      .then(function(){delete rc[path]})})},Promise.resolve())
-    .then(function(){delete delPending[id];store.set('delPending',delPending);store.set('rc',rc)});
+    var rc=DATA_T.rc,go=rc[path]&&rc[path].sha?Promise.resolve(rc[path].sha):remoteFile(path).then(function(r){return r&&r.sha});
+    return go.then(function(sha){if(!sha)return;return api('/contents/'+path,{method:'DELETE',body:{message:'Drill: delete '+path,sha:sha,branch:DATA_T.branch}}).catch(function(e){if(!(e&&e.status===404))throw e})})
+      .then(function(){delete DATA_T.rc[path]})})},Promise.resolve())
+    .then(function(){delete delPending[id];store.set('delPending',delPending);store.set(DATA_T.sk,DATA_T.rc)});
 }
 function flush(){
   if(!getTok()){showStatus();return queue}
   queue=queue.then(function(){showStatus();
-    var ids=Object.keys(dirty);
-    return ids.reduce(function(p,id){return p.then(function(){return pushGame(id)})},Promise.resolve())
-      .then(function(){return Object.keys(delPending).reduce(function(p,id){return p.then(function(){return deleteRemote(id)})},Promise.resolve())})
-      .then(function(){if(progDirty)return pushProg()})
-      .then(function(){syncErr='';lastOk=Date.now();saveLocal();renderDrill();showStatus()});
+    var ids=Object.keys(dirty),err=null,keep=function(e){if(!err)err=e};
+    // Film Room data (football-film-room) and Camp progress (football-camp) save independently, so one can't hold up the other.
+    var drill=ids.reduce(function(p,id){return p.then(function(){return pushGame(id)})},Promise.resolve())
+      .then(function(){return Object.keys(delPending).reduce(function(p,id){return p.then(function(){return deleteRemote(id)})},Promise.resolve())}).catch(keep);
+    var prog=(progDirty?pushProg():Promise.resolve()).catch(keep);
+    return Promise.all([drill,prog]).then(function(){if(err)throw err;syncErr='';lastOk=Date.now();saveLocal();renderDrill();showStatus()});
   }).catch(function(e){syncErr=errText(e);showStatus()});
   return queue;
 }
@@ -763,15 +780,16 @@ del.onclick=function(){if(!games[cur])return;
 // Start from this device's copy, then refresh from GitHub.
 games=store.get('games',{})||{};
 renderMyPlays();renderDrill();showStatus();
-$('syncBtn').onclick=function(){var p=$('syncPanel');p.hidden=!p.hidden;if(!p.hidden){$('repoName').textContent=CFG.owner+'/'+CFG.repo;$('f-token').value='';$('tokMsg').textContent='';$('tokRemove').hidden=!getTok();$('f-token').focus()}};
+$('syncBtn').onclick=function(){var p=$('syncPanel');p.hidden=!p.hidden;if(!p.hidden){$('repoName').textContent=repoLabel(DATA_T);$('repoName2').textContent=repoLabel(PROG_T);$('f-token').value='';$('tokMsg').textContent='';$('tokRemove').hidden=!getTok();$('f-token').focus()}};
 $('tokSave').onclick=function(){
   var t=v('f-token').trim(),m=$('tokMsg');
   if(!/^(github_pat_|ghp_)[A-Za-z0-9_]{20,}$/.test(t)){m.textContent='That doesn’t look like a GitHub key. It starts with github_pat_. Copy it again from GitHub.';return}
   m.textContent='Checking the key…';var old=getTok();setTok(t);
-  api('').then(function(r){if(!r||!r.permissions||!r.permissions.push)throw {status:403};
+  var chk=function(T){return api('',null,T).then(function(r){if(!r||!r.permissions||!r.permissions.push){var e=new Error('no push');e.status=403;e.repo=repoLabel(T);throw e}})};
+  chk(DATA_T).then(function(){return chk(PROG_T)}).then(function(){
     m.textContent='Connected. Saving your games to GitHub…';$('f-token').value='';$('tokRemove').hidden=false;
     syncErr='';return flush().then(pull)}).then(function(){if(!syncErr){m.textContent='Done. This device now syncs with GitHub.';setTimeout(function(){$('syncPanel').hidden=true},1500)}})
-  .catch(function(e){setTok(old);m.textContent=(e&&e.status===401)?'GitHub didn’t accept that key. Make a new one and paste it again.':'That key works but can’t save to '+CFG.owner+'/'+CFG.repo+'. Give it Contents: Read and write on that repo.';showStatus()});
+  .catch(function(e){setTok(old);m.textContent=(e&&e.status===401)?'GitHub didn’t accept that key. Make a new one and paste it again.':'That key works but can’t save to '+(e&&e.repo||repoLabel(DATA_T))+'. On GitHub, add that repo to the key with Contents: Read and write, then tap Save again.';showStatus()});
 };
 var rmArmed=false;
 $('tokRemove').onclick=function(){var b=$('tokRemove');if(!rmArmed){rmArmed=true;b.textContent='Tap again to remove the key from this device';setTimeout(function(){rmArmed=false;b.textContent='Remove key from this device'},4000);return}
