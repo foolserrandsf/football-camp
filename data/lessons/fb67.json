@@ -1,0 +1,56 @@
+{
+  "n": 67,
+  "title": "Blocking a punt: how the punt team protects the kick (and how two tips swung Thanksgiving)",
+  "html": "<p><strong>Why this lesson now:</strong> the Film Room mirror (football-brief, branch film-room) was checked this run. It still holds one game file (data/games/gmum7mktl1wy3.json, \"Eagles at Bears, Week 3\", no snaps logged) and no review files. It was last updated Oct 12. The original football-film-room repo can't be read from this scheduled run (GitHub said access to it \"is not enabled for this session\"). So there are no new misses of yours to target. This lesson takes two punt plays that decided Thursday's games, one of them the board's Eagles bet.</p>\n<p><span class=\"ln\"><strong>The big idea:</strong> a punt is a race against the clock.</span><span class=\"ln\">The snap travels about 14 yards back. The punter catches it, takes two steps and kicks. That takes about 2 seconds.</span><span class=\"ln\">If one rusher reaches the spot where the ball leaves the foot in time, he blocks it.</span><span class=\"ln\">The punt team's whole formation is built to stop that one free rusher.</span></p>\n<div class=\"diagram\"><svg viewBox=\"0 0 400 320\" role=\"img\" aria-label=\"Spread punt formation. A: long snapper. B: wings, a yard behind the tackles. C: personal protector, 5 yards deep. D: punter, about 14 yards deep. E: the block point, about a yard in front of the punter. F: gunners split wide. Yellow rushers overload the right side; one arrow runs to the block point.\"><defs><marker id=\"fb67arr\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#F2B705\"/></marker></defs><text x=\"200\" y=\"20\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"14\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">Spread punt: who protects the kick</text><line x1=\"10\" y1=\"98\" x2=\"390\" y2=\"98\" stroke=\"#fff\" stroke-width=\"1.5\" stroke-dasharray=\"5 4\"/><text x=\"12\" y=\"92\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#fff\" text-anchor=\"start\">line of scrimmage</text><circle cx=\"152\" cy=\"84\" r=\"8\" fill=\"#F2B705\"/><circle cx=\"176\" cy=\"84\" r=\"8\" fill=\"#F2B705\"/><circle cx=\"200\" cy=\"84\" r=\"8\" fill=\"#F2B705\"/><circle cx=\"224\" cy=\"84\" r=\"8\" fill=\"#F2B705\"/><circle cx=\"248\" cy=\"84\" r=\"8\" fill=\"#F2B705\"/><circle cx=\"290\" cy=\"84\" r=\"8\" fill=\"#F2B705\"/><circle cx=\"314\" cy=\"84\" r=\"8\" fill=\"#F2B705\"/><circle cx=\"30\" cy=\"84\" r=\"8\" fill=\"#F2B705\"/><circle cx=\"370\" cy=\"84\" r=\"8\" fill=\"#F2B705\"/><text x=\"334\" y=\"70\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" font-weight=\"700\" fill=\"#F2B705\" text-anchor=\"middle\">extra rushers</text><path d=\"M314 92 Q300 196 212 226\" fill=\"none\" stroke=\"#F2B705\" stroke-width=\"2.5\" marker-end=\"url(#fb67arr)\"/><rect x=\"144\" y=\"102\" width=\"16\" height=\"16\" fill=\"#fff\"/><rect x=\"168\" y=\"102\" width=\"16\" height=\"16\" fill=\"#fff\"/><rect x=\"216\" y=\"102\" width=\"16\" height=\"16\" fill=\"#fff\"/><rect x=\"240\" y=\"102\" width=\"16\" height=\"16\" fill=\"#fff\"/><rect x=\"192\" y=\"102\" width=\"16\" height=\"16\" fill=\"#fff\" stroke=\"#F2B705\" stroke-width=\"2\"/><rect x=\"120\" y=\"114\" width=\"16\" height=\"16\" fill=\"#fff\"/><rect x=\"264\" y=\"114\" width=\"16\" height=\"16\" fill=\"#fff\"/><circle cx=\"30\" cy=\"110\" r=\"8\" fill=\"#fff\"/><circle cx=\"370\" cy=\"110\" r=\"8\" fill=\"#fff\"/><circle cx=\"200\" cy=\"158\" r=\"9\" fill=\"#fff\"/><circle cx=\"200\" cy=\"248\" r=\"9\" fill=\"#fff\"/><circle cx=\"200\" cy=\"228\" r=\"11\" fill=\"none\" stroke=\"#F2B705\" stroke-width=\"2\" stroke-dasharray=\"3 3\"/><circle cx=\"200\" cy=\"136\" r=\"9\" fill=\"#fff\"/><text x=\"200\" y=\"140\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" font-weight=\"700\" fill=\"#14202B\" text-anchor=\"middle\">A</text><circle cx=\"272\" cy=\"146\" r=\"9\" fill=\"#fff\"/><text x=\"272\" y=\"150\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" font-weight=\"700\" fill=\"#14202B\" text-anchor=\"middle\">B</text><circle cx=\"226\" cy=\"158\" r=\"9\" fill=\"#fff\"/><text x=\"226\" y=\"162\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" font-weight=\"700\" fill=\"#14202B\" text-anchor=\"middle\">C</text><circle cx=\"226\" cy=\"250\" r=\"9\" fill=\"#fff\"/><text x=\"226\" y=\"254\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" font-weight=\"700\" fill=\"#14202B\" text-anchor=\"middle\">D</text><circle cx=\"172\" cy=\"228\" r=\"9\" fill=\"#F2B705\"/><text x=\"172\" y=\"232\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" font-weight=\"700\" fill=\"#14202B\" text-anchor=\"middle\">E</text><circle cx=\"30\" cy=\"134\" r=\"9\" fill=\"#fff\"/><text x=\"30\" y=\"138\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" font-weight=\"700\" fill=\"#14202B\" text-anchor=\"middle\">F</text><text x=\"96\" y=\"128\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#fff\" text-anchor=\"middle\">wing</text><text x=\"150\" y=\"162\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#fff\" text-anchor=\"middle\">personal protector</text><text x=\"150\" y=\"254\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#fff\" text-anchor=\"middle\">punter</text><text x=\"128\" y=\"214\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" font-weight=\"700\" fill=\"#F2B705\" text-anchor=\"middle\">block point</text><text x=\"52\" y=\"152\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#fff\" text-anchor=\"start\">gunner</text><text x=\"376\" y=\"162\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#fff\" text-anchor=\"end\">5 yds</text><text x=\"376\" y=\"252\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#fff\" text-anchor=\"end\">14 yds</text><line x1=\"350\" y1=\"98\" x2=\"350\" y2=\"248\" stroke=\"#fff\" stroke-width=\"1\"/><text x=\"200\" y=\"300\" font-family=\"Arial,Helvetica,sans-serif\" font-size=\"11\" font-weight=\"700\" fill=\"#fff\" text-anchor=\"middle\">Snap to kick: about 2 seconds. A rusher who gets to E in time blocks it.</text></svg></div>\n<p class=\"note\">Letters match the list below. White = punt team. Yellow = the rush.</p>\n<ol><li><span class=\"ln\"><strong>A · Long snapper.</strong> The center on punts. He snaps the ball about 14 yards, then blocks.</span></li><li><span class=\"ln\"><strong>B · Wings.</strong> They stand a yard behind the tackles, one on each side.</span><span class=\"ln\">Their job is the edge. The fastest rushers come from outside, where the path to the punter is shortest.</span></li><li><span class=\"ln\"><strong>C · Personal protector.</strong> About 5 yards deep. He's the punt team's quarterback.</span><span class=\"ln\">He counts the rushers, calls the protection, and blocks anyone who comes free up the middle.</span></li><li><span class=\"ln\"><strong>D · Punter.</strong> About 14 yards deep. Closer is faster, but easier to block.</span></li><li><span class=\"ln\"><strong>E · The block point.</strong> About a yard in front of the punter, where the ball leaves his foot.</span><span class=\"ln\">Rushers aim there, not at the punter. Hitting the punter is roughing the kicker: 15 yards and a first down.</span></li><li><span class=\"ln\"><strong>F · Gunners.</strong> The two wide men don't block. They sprint downfield to tackle the returner.</span><span class=\"ln\">So the punt team protects with 8 players. The defense can send more to one side.</span></li></ol>\n<p><span class=\"ln\"><strong>How a block happens:</strong> the defense overloads one side, like the two extra rushers on the right of the diagram.</span><span class=\"ln\">If that side has more rushers than blockers, one runs free to E. It's the same counting you do for the box (Lesson 19).</span></p>\n<p><span class=\"ln\"><strong>Thursday, Dallas:</strong> the Eagles' Ty Robinson blocked a Cowboys punt. Kenny Moore picked it up and scored.</span><span class=\"ln\">That was 7 of the Eagles' 39 points. The board's \"Eagles over 19.5\" → NO lost, and special teams were part of why.</span><span class=\"ln\"><strong>Thursday, Buffalo:</strong> with seconds left, the Bills' Joe Andreessen got a hand on Matt Araiza's punt.</span><span class=\"ln\">The tipped punt came up short. Greg Dortch returned it 17 yards to the Chiefs' 39. Tyler Bass then won it from 57.</span></p>\n<p><span class=\"ln\"><strong>Why it matters for bets:</strong> blocked punts are rare, fewer than 1 in 100 NFL punts.</span><span class=\"ln\">But one swings field position by 30–40 yards, or scores outright. That's the \"return TD\" risk on every Under card, like today's Broncos-Steelers Under.</span></p>\n<p><span class=\"ln\"><strong>In the drill:</strong> on 4th down, look at the personal protector. A fake punt often goes to him with a direct snap.</span><span class=\"ln\">Then count each side: blockers vs. rushers. An extra rusher on one side means a block try is coming.</span></p>\n<p><span class=\"ln\"><strong>Check yourself:</strong> the defense puts four rushers outside the right tackle. Only the tackle and the wing are there to block. Who has to slide over? (The personal protector. He picks up the free rusher.)</span></p>\n<p><a href=\"https://foolserrandsf.github.io/football-camp/#s6\">Practice it in Football Camp →</a> (Station 6: Situations)</p>",
+  "quiz": [
+    {
+      "q": "Where do punt rushers aim?",
+      "o": [
+        "The punter's body",
+        "A spot about a yard in front of the punter",
+        "The long snapper",
+        "The gunners"
+      ],
+      "a": 1,
+      "w": "They aim at the block point, where the ball leaves the foot. Hitting the punter is roughing the kicker: 15 yards and a first down."
+    },
+    {
+      "q": "What is the personal protector's job?",
+      "o": [
+        "Catch the snap and kick",
+        "Run downfield to tackle the returner",
+        "Count the rushers, call the protection and block a free rusher",
+        "Hold the ball for the kicker"
+      ],
+      "a": 2,
+      "w": "He lines up about 5 yards deep and acts as the punt team's quarterback."
+    },
+    {
+      "q": "Why don't the gunners block on a punt?",
+      "o": [
+        "They sprint downfield to tackle the returner",
+        "The rules don't let them",
+        "They protect the punter's leg",
+        "They're backup long snappers"
+      ],
+      "a": 0,
+      "w": "Gunners cover the kick. That leaves 8 players to protect, so the defense can overload one side."
+    },
+    {
+      "q": "What set up the Bills' 57-yard winning field goal Thursday?",
+      "o": [
+        "An interception",
+        "A fake punt",
+        "A fumble on a kickoff",
+        "A tipped Chiefs punt and a 17-yard return"
+      ],
+      "a": 3,
+      "w": "Joe Andreessen got a hand on Matt Araiza's punt. Greg Dortch returned the short kick to the Chiefs' 39."
+    }
+  ],
+  "stations": [
+    "s6"
+  ],
+  "added": 1795792271034,
+  "source": "Football Brief"
+}
